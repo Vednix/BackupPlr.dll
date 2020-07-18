@@ -224,7 +224,6 @@ namespace BackupPlr
                 TShock.Log.ConsoleError(ex.ToString());
             }
         }
-
         private static void EncryptFile(string inputFile, string outputFile)
         {
             const string s = "h3y_gUyZ";
@@ -243,6 +242,12 @@ namespace BackupPlr
             fileStream2.Close();
             cryptoStream.Close();
             fileStream.Close();
+        }
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+                ServerApi.Hooks.ServerJoin.Deregister(this, OnJoin);
+            base.Dispose(disposing);
         }
     }
 }
