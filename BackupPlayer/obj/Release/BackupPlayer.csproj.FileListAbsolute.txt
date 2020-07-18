@@ -1,0 +1,5 @@
+C:\Users\fabio\Downloads\SavePlayeV2-Pt--API-2.0-\BackupPlayer\obj\Release\BackupPlayer.csproj.CoreCompileInputs.cache
+C:\Users\fabio\Downloads\SavePlayeV2-Pt--API-2.0-\BackupPlayer\bin\Release\BackupPlr.dll
+C:\Users\fabio\Downloads\SavePlayeV2-Pt--API-2.0-\BackupPlayer\bin\Release\BackupPlr.pdb
+C:\Users\fabio\Downloads\SavePlayeV2-Pt--API-2.0-\BackupPlayer\obj\Release\BackupPlr.dll
+C:\Users\fabio\Downloads\SavePlayeV2-Pt--API-2.0-\BackupPlayer\obj\Release\BackupPlr.pdb
